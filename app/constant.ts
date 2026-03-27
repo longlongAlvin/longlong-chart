@@ -879,12 +879,12 @@ export const DEFAULT_MODELS = [
   ...deepseekModels.map((name) => ({
     name,
     available: true,
-    sorted: seq++,
+    sorted: 1,
     provider: {
       id: "deepseek",
       providerName: "DeepSeek",
       providerType: "deepseek",
-      sorted: 13,
+      sorted: 1,
     },
   })),
   ...siliconflowModels.map((name) => ({
